@@ -1,0 +1,9 @@
+Reference, Value, Footprint, Datasheet
+"J4","5V Rail","OSHEGrowbotBotPDB:pxc_1985027_04_PTSA-1-5-8-3-5-F","~"
+"J5","Ground Rail","OSHEGrowbotBotPDB:pxc_1985027_04_PTSA-1-5-8-3-5-F","~"
+"J6","Motor Power","OSHEGrowbotBotPDB:pxc_1017521_00_TDPT-4-2-SP-6-35-ZB","~"
+"J2","5V Regulator","OSHEGrowbotBotPDB:pxc_1935792_01_PT-2-5-4-5-0-H","~"
+"J3","Voltage Sense","OSHEGrowbotBotPDB:pxc_1984963_04_PTSA-1-5-2-3-5-F","~"
+"R1","1M","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+"R2","100k","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+"J1","Battery Connector","OSHEGrowbotBotPDB:pxc_1017521_00_TDPT-4-2-SP-6-35-ZB","~"
