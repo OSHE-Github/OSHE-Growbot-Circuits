@@ -37,17 +37,6 @@ F 3 "~" H 5100 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J6
-U 1 1 5E159AAC
-P 5100 3450
-F 0 "J6" H 5180 3442 50  0000 L CNN
-F 1 "Motor Power" H 5180 3351 50  0000 L CNN
-F 2 "OSHEGrowbotBotPDB:pxc_1017521_00_TDPT-4-2-SP-6-35-ZB" H 5100 3450 50  0001 C CNN
-F 3 "~" H 5100 3450 50  0001 C CNN
-	1    5100 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x04 J2
 U 1 1 5E15CC8C
 P 2400 2900
@@ -60,10 +49,6 @@ F 3 "~" H 2400 2900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3050 3000 2600 3000
-Wire Wire Line
-	4900 3450 3050 3450
-Wire Wire Line
-	3050 3450 3050 3000
 Wire Wire Line
 	2600 2800 4650 2800
 Wire Wire Line
@@ -205,13 +190,12 @@ L Connector_Generic:Conn_01x02 J1
 U 1 1 5E15B7B2
 P 2400 1850
 F 0 "J1" H 2318 1525 50  0000 C CNN
-F 1 "Battery Connector" H 2318 1616 50  0000 C CNN
-F 2 "OSHEGrowbotBotPDB:pxc_1017521_00_TDPT-4-2-SP-6-35-ZB" H 2400 1850 50  0001 C CNN
+F 1 "Battery" H 2318 1616 50  0000 C CNN
+F 2 "OSHEGrowbotBotPDB:pxc_1984963_04_PTSA-1-5-2-3-5-F" H 2400 1850 50  0001 C CNN
 F 3 "~" H 2400 1850 50  0001 C CNN
 	1    2400 1850
 	-1   0    0    1   
 $EndComp
-Connection ~ 3050 3000
 Wire Wire Line
 	3450 1850 3050 1850
 Wire Wire Line
@@ -222,17 +206,12 @@ Wire Wire Line
 Wire Wire Line
 	3150 2900 2600 2900
 Wire Wire Line
-	3150 2900 3150 3550
-Wire Wire Line
-	3150 3550 4900 3550
-Wire Wire Line
 	4900 1450 4900 1300
 Wire Wire Line
 	3800 1450 4900 1450
 Connection ~ 4900 1300
 Wire Wire Line
 	3150 1300 4900 1300
-Connection ~ 3150 2900
 Wire Wire Line
 	3150 1750 3150 2900
 Wire Wire Line
